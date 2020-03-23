@@ -17,15 +17,15 @@ const MainSec = styled.section`
 
 const DLButton = styled.section`
   color: whitesmoke;
-  padding: 30px 20px;
-  background-color: #696969;
+  padding: 35px 20px;
+  background-color: #4d4d4d;
   cursor: pointer;
 `;
 
 const Namee = styled.section`
   color: whitesmoke;
-  padding: 30px 304.75px;
-  background-color: #3d3d3d;
+  padding: 35px 304.75px;
+  background-color: #5d5d5d;
 `;
 
 export default Name2;

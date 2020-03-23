@@ -11,7 +11,7 @@ function Imagee() {
 }
 
 const Image = styled.img`
-  width: 690px;
+  width: 500px;
   height: auto;
   object-fit: cover;
   display: flex;
