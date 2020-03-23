@@ -13,29 +13,10 @@ body {
 .btn {
   border: none;
   color: white;
-  padding: 35px 41.6px;
   cursor: pointer;
 }
 
-.btnup {
-  border: none;
-  color: whitesmoke;
-  font-size: 35px;
-  padding: 10px 324px;
-  cursor: pointer;
-  background-color: #3d3d3d;
-}
-.btnup2 {
-  float: right;
-  border: none;
-  color: whitesmoke;
-  font-size: 35px;
-  padding: 10px 10px;
-  cursor: pointer;
-  background-color: #292929;
-}
-
-.home {
+/*.home {
   background-color: #01bd9b;
 }
 .home:hover {
@@ -85,4 +66,4 @@ body {
 .text {
   background-color: darkgrey;
   display: flex;
-}
+}*/

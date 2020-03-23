@@ -16,5 +16,6 @@ export default InfoSet;
 
 const Infoset = styled.div`
   display: flex;
-  flex-direction row;
+  flex-direction: row;
+  flex: 1;
 `;

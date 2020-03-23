@@ -1,35 +1,40 @@
 import React from "react";
 import styled from "styled-components";
+import { IoIosAddCircle } from "react-icons/io";
 
 function Name2() {
   return (
     <MainSec>
-      <Namee>Steve jobs</Namee>
-      <DLButton>Download</DLButton>
+      <Namee> &nbsp; Steve jobs</Namee>
+      <DLButton>
+        <IoIosAddCircle />
+      </DLButton>
     </MainSec>
   );
 }
 const MainSec = styled.section`
-  font-size: 20px;
+  font-size: 35px;
   display: flex;
   flex-direction: row;
 `;
-
-const DLButton = styled.section`
+const DLButton = styled.button`
   color: whitesmoke;
-  padding: 35px 20px;
-  background-color: #4d4d4d;
+  font-size: 35px;
+  border-radius: 0px;
+  border: none;
+  padding: 35px 40px;
+  background-color: #454545;
   cursor: pointer;
+  &:hover {
+    background-color: #3d3d3d;
+  }
 `;
-
 const Namee = styled.section`
   color: whitesmoke;
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-
-  background-color: #5d5d5d;
+  background-color: #4e4e4e;
 `;
-
 export default Name2;

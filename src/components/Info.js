@@ -28,12 +28,11 @@ function Info() {
 
 export default Info;
 
-const MainSec = styled.section`
+const MainSec = styled.div`
   border: black;
-  padding: 10px 10px;
-  float: left;
   color: black;
-  background-color: white;
+  background-color: #f5f5f5;
+  padding: 30px 50px;
 `;
 
 const SecondarySec = styled.section`
@@ -43,9 +42,9 @@ const SecondarySec = styled.section`
 
 const ThirdSec = styled.section`
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(3, 240px);
   grid-template-rows: repeat(3, auto);
-  grid-gap: 1px 20px;
+  grid-gap: 1px 15px;
 `;
 
 const Info1 = styled.section`

@@ -7,27 +7,28 @@ function Personal() {
       <h1> PERSONAL INFO</h1>
       <FirstSec>
         <SecondSec>
-          <Name> NAME :</Name>
-          <Birth> BIRTH DATE :</Birth>
-          <Address> ADDRESS :</Address>
-          <Phone> PHONE :</Phone>
-          <Email> EMAIL :</Email>
+          <SecondSec> NAME :</SecondSec>
+          <SecondSec> BIRTH DATE :</SecondSec>
+          <SecondSec> ADDRESS :</SecondSec>
+          <SecondSec> PHONE :</SecondSec>
+          <SecondSec> EMAIL :</SecondSec>
         </SecondSec>
         <ThirdSec>
-          <Name2>Steve Job</Name2>
-          <Birth2>24/2/1955</Birth2>
-          <Address2>69 Bass Road, LmaoXD, Uganda</Address2>
-          <Phone2>0123546789</Phone2>
-          <Email2>stevejob@apple.com</Email2>
+          <ThirdSec>Steve Job</ThirdSec>
+          <ThirdSec>24/2/1955</ThirdSec>
+          <ThirdSec>69 Bass Road, LmaoXD, Uganda</ThirdSec>
+          <ThirdSec>0123546789</ThirdSec>
+          <ThirdSec>stevejob@apple.com</ThirdSec>
         </ThirdSec>
       </FirstSec>
     </ZeroSec>
   );
 }
-const ZeroSec = styled.section`
+
+const ZeroSec = styled.div`
   color: black;
   padding: 20px 10px;
-  background-color: #f5f5f5;
+  background-color: #e6e6e6;
 `;
 
 const FirstSec = styled.section`
@@ -44,25 +45,5 @@ const SecondSec = styled.section`
 const ThirdSec = styled.section`
   color: #696969;
 `;
-
-const Name = styled.section``;
-
-const Birth = styled.section``;
-
-const Address = styled.section``;
-
-const Phone = styled.section``;
-
-const Email = styled.section``;
-
-const Name2 = styled.section``;
-
-const Birth2 = styled.section``;
-
-const Address2 = styled.section``;
-
-const Phone2 = styled.section``;
-
-const Email2 = styled.section``;
 
 export default Personal;
