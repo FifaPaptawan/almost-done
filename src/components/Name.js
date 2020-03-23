@@ -17,15 +17,17 @@ const MainSec = styled.div`
 
 const Jobs = styled.section`
   color: whitesmoke;
-  padding: 35px 290.5px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
   background-color: #3d3d3d;
 `;
 
 const BEButton = styled.section`
   color: whitesmoke;
-  padding: 35px 54px;
   background-color: #303030;
-
+  padding: 35px 54px;
   cursor: pointer;
 `;
 

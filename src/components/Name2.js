@@ -24,7 +24,11 @@ const DLButton = styled.section`
 
 const Namee = styled.section`
   color: whitesmoke;
-  padding: 35px 304.75px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
   background-color: #5d5d5d;
 `;
 

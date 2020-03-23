@@ -27,5 +27,5 @@ const NameGroup = styled.div`
 
 const Primary = styled.div`
   display: flex;
-  flex-direction row;
+  flex-direction: row;
 `;

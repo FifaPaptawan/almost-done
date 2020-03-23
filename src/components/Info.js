@@ -38,6 +38,7 @@ const MainSec = styled.section`
 
 const SecondarySec = styled.section`
   color: red;
+  font-size: 15px;
 `;
 
 const ThirdSec = styled.section`
@@ -45,14 +46,6 @@ const ThirdSec = styled.section`
   grid-template-columns: repeat(3, 250px);
   grid-template-rows: repeat(3, auto);
   grid-gap: 1px 20px;
-`;
-
-const h1 = styled.section`
-  color: ;
-`;
-
-const h2 = styled.section`
-  color: red;
 `;
 
 const Info1 = styled.section`
